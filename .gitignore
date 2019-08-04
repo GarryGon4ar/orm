@@ -1,0 +1,12 @@
+__pycache__/
+
+db.sqlite3
+migrations/
+media/
+
+# Project files and directories
+/youtubedl/static/
+/youtubedl/media/
+.idea
+venv/
+.env
