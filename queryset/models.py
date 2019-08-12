@@ -21,4 +21,4 @@ class TaskStatuses(models.Model):
     )
     created = models.DateTimeField(auto_now_add=True)
     task_id = models.IntegerField()
-    status_type = models.PositiveSmallIntegerField(choices=STATUS_TYPES,max_length=5)
+    status_type = models.PositiveSmallIntegerField(choices=STATUS_TYPES)
